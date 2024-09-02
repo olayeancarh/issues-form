@@ -4,7 +4,7 @@ import cors from "cors";
 import IssueController from "./controllers/issueController";
 
 const app: Application = express();
-const PORT: number = 5000;
+const PORT: number = 3000;
 
 app.use(json());
 app.use(cors());
